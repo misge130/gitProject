@@ -182,3 +182,35 @@
     border-right-color: var(--border);
   }
 }
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #071426;
+  color: #ffffff;
+}
+
+.home {
+  min-height: 75vh;
+  padding: 100px 8%;
+  background: linear-gradient(120deg, #071426, #102a50);
+}
+
+.home h1 {
+  margin: 10px 0;
+  font-size: clamp(38px, 5vw, 60px);
+}
+
+.home h1 span {
+  color: #168cff;
+}
+
+.home h2 {
+  font-size: 22px;
+}
+
+.home p {
+  max-width: 550px;
+  line-height: 1.7;
+  color: #d4deec;
+}
