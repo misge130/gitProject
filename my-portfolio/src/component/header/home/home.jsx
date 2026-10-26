@@ -26,9 +26,14 @@ function Home() {
             View My Projects
           </a>
 
-          <a href="#contact" className="btn secondary-btn">
-            Contact Me
-          </a>
+        <a
+  href="https://t.me/Miseaye"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn secondary-btn"
+>
+  Contact Me
+</a>
         </div>
 
         <div className="home-socials">
