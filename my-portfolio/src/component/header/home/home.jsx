@@ -22,7 +22,7 @@ function Home() {
         </p>
 
         <div className="home-buttons">
-          <a href="#projects" className="btn primary-btn">
+          <a href="file:///C:/Users/hp/Desktop/New%20folder/index.html" className="btn primary-btn">
             View My Projects
           </a>
 
