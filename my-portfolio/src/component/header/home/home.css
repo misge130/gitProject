@@ -132,23 +132,3 @@
     max-width: 280px;
   }
 }
-@media (max-width: 768px) {
-  .home {
-    flex-direction: column;
-    text-align: center;
-    padding: 45px 6%;
-  }
-
-  .home-buttons,
-  .home-socials {
-    justify-content: center;
-  }
-
-  .home-image {
-    width: 100%;
-  }
-
-  .home-image img {
-    max-width: 280px;
-  }
-}
