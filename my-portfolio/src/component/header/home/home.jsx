@@ -70,31 +70,3 @@ function Home() {
 }
 
 export default Home;
-
-import { useState } from 'react';
-
-
- function colorChange() {
-
-const [count,countstate]=useState(0);
-
-const incremet=()=>{
-  countstate(prevet=>{
-    return prevet+1;
-  })
-}
-
-
-
-  return (
-  <>  <div className='h-one'>
-      <h1>check the useState hook is work</h1> <br />
-<div>   <h1>{count}</h1></div>
-    </div>
-       
-    <div className='button'>
-      <button   onClick={incremet}>increment</button>
-    </div></>
-  )
-}
-export default colorChange;
