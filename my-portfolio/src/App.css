@@ -216,3 +216,53 @@ body {
 }
 
 
+
+
+
+
+
+
+
+
+
+.clock-container {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 40px 20px;
+  text-align: center;
+  background: #f1f5f9;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.clock-container h1 {
+  color: #2563eb;
+  font-size: 32px;
+}
+
+.clock-container h2 {
+  color: #1e293b;
+  font-size: 42px;
+  margin: 20px 0;
+}
+
+.clock-container p {
+  color: #475569;
+  font-size: 18px;
+}
+
+.clock-container .clock-message {
+  font-size: 14px;
+  margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+  .clock-container {
+    margin: 30px 15px;
+    padding: 30px 15px;
+  }
+
+  .clock-container h2 {
+    font-size: 32px;
+  }
+}
