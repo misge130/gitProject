@@ -1,9 +1,10 @@
 
 import './Header.css';
-
+import Navigation from '../navigation/navigation';
 function Header() {
   return (
     <header className="header">
+      <Navigation/>
       <a href="#home" className="brand">
         <span className="brand-icon">&lt;/&gt;</span>
         <span className="brand-name">
