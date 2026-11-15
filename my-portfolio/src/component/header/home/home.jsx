@@ -1,5 +1,5 @@
 import Image from '../css/4259e2e6-291e-4e47-b16d-d1e7a3096265.png';
-import './Home.css';
+import '../home/home.css';
 
 function Home() {
   return (
