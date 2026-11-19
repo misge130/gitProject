@@ -132,3 +132,7 @@
     max-width: 280px;
   }
 }
+.home {
+  width: 100%;
+  min-height: calc(100vh - 90px);
+}
